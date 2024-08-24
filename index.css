@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+.tr{
+    display: flex;
+    gap: 150px;
+}
+.tr input {
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+}
+.tr input::placeholder{
+    color: black;
+    padding-left: 6px;
+}
+.tr button{
+
+  width: 100px;
+  height: 40px;
+  border-radius: 18px;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+.tr button:hover{
+    background-color: rgb(252, 128, 84);
+}
+.tr{
+    background-color: rgb(230, 229, 229);
+    margin-top: 20px;
+    width: 430px;
+    height: 40px;
+    border-radius: 18px;
+}
+
+.hg{
+    background-color: white;
+    width: 100%;
+    max-width: 440px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin-top: 90px;
+    padding: 40px 30px 70px;
+}
+h1{
+    padding-top: 20px;
+}
+.ar{
+    display: flex;
+    justify-content: center;
+    
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 14px 8px 10px 30px;
+    padding-top: 17px;
+    padding-left: 40px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    font-weight: bold;
+}
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url("circle.png");
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url("circle\ 2.jpg");
+
+}
+ul li span{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background-color: #edeef0;
+}
+.ju{
+    padding-top: 20px;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    margin-top: 140px;
+}
+.ju {
+    text-align: center;
+}
+.ju h3{
+    text-align: center;
+    font-size: 29px;
+    padding-top: 15px;
+}
+.gt{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.hy{
+    width: 30px;
+    height: 30px;
+}
+.ju input{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 16px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+.jf{
+    width: 90px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.eq{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.kq{
+    padding-top: 10px;
+}
+.nh{
+    display: flex;
+    justify-content: center;
+    
+}
+.hr input{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 16px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+.hr{
+    padding-top: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+     margin-top: 80px;
+    text-align: center;
+}
+.nf{
+    display: flex;
+    justify-content: center;
+    
+}
+@media (max-width: 601px) {
+    .tr{
+        display: flex;
+        gap: 50px;
+    }
+    .tr input {
+        background-color: transparent;
+        border: none;
+        padding-left: 10px;
+    }
+    .tr input::placeholder{
+        color: black;
+        padding-left: 6px;
+    }
+    .tr button{
+    
+      width: 120px;
+      height: 40px;
+      border-radius: 18px;
+      background-color: orangered;
+      color: white;
+      border: none;
+    }
+    .tr button:hover{
+        background-color: rgb(252, 128, 84);
+    }
+    .tr{
+        background-color: rgb(230, 229, 229);
+        margin-top: 20px;
+        width: 270px;
+        height: 40px;
+        border-radius: 18px;
+    }
+    
+    .hg{
+        background-color: white;
+    
+        width: 250px;
+        border-radius: 13px;
+        box-shadow: 2px 2px 8px #ccc;
+        margin-top: 90px;
+        padding: 40px 30px 70px;
+        padding-left: 10px;
+    }
+}
